@@ -1,0 +1,20 @@
+{
+  "name": "usage-meter",
+  "version": "0.3.0",
+  "description": "Records plan limits (5-hour, weekly) and per-session token spend as sessions work, at no token cost, and charts them in a pane",
+  "author": { "name": "Igor Mitrenko" },
+  "homepage": "https://github.com/deadmanswitchvultures/usage-meter",
+  "repository": "https://github.com/deadmanswitchvultures/usage-meter",
+  "license": "MIT",
+  "keywords": ["usage", "limits", "rate-limits", "tokens", "cost", "statistics", "chart"],
+  "userConfig": {
+    "language": {
+      "type": "string",
+      "title": "Language",
+      "description": "Interface language; auto follows Claude Code's language setting, then the system locale, then English",
+      "default": "auto",
+      "options": ["auto", "en", "ru", "zh", "es", "pt", "ja", "de", "fr", "ko"]
+    }
+  },
+  "types": "./types/index.d.ts"
+}

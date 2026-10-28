@@ -1,0 +1,6 @@
+{
+  "name": "flint-mods",
+  "description": "Small Claude Code mods",
+  "owner": { "name": "Igor Mitrenko" },
+  "plugins": [{ "name": "usage-meter", "source": "./" }]
+}
